@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <input type="text" id="ten" placeholder="Nhập tên của bạn:">
+     <button onclick="displayhello()"> Hello </button>
+     <p id="result"></p>
+     <script>
+        function displayhello(){
+            var ten =document.getElementById("ten").value;
+            document.getElementById("result").innerText="Hello " + ten }
+     </script>
 </body>
 </html>
